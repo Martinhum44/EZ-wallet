@@ -1,0 +1,45 @@
+.container{
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hwb(0 57% 43% / 0.756);
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+@media (orientation: landscape) {
+  .container{
+      width:50%
+  }
+}
+
+@media (orientation: portrait) {
+  .container{
+      width:80%
+  }
+}
+
+button {
+    color: black;
+    border: none
+}
+
+button:hover{
+    opacity:0.8
+}
+
+@keyframes rotation {
+  from {
+      rotate: 0deg;
+  }
+
+  to {
+      rotate: 360deg;
+  }
+}
+
+td{
+  margin: 25px;
+}

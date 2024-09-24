@@ -1,0 +1,8 @@
+{
+    "manifest_version": 3,
+    "name": "EZ-Wallet",
+    "version": "1.0",
+    "description": "An easy to use, self-custody ETH wallet",
+    "permissions": []
+}
+  
