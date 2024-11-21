@@ -447,7 +447,7 @@ function App() {
           <h1 style={{
             fontFamily: "Inter, system-ui, Arial, Helvetica, sans-serif",
           }}>Account Details</h1>
-          <div className="container">
+          <div className="container" style={{overflowX:"scroll"}}>
             <h3 style={{
               fontFamily: "Inter, system-ui, Arial, Helvetica, sans-serif",
             }}>Address: {address}</h3>
